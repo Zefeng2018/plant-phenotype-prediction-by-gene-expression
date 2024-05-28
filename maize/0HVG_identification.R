@@ -1,4 +1,5 @@
 ####################################### HVG selections#####################################################################################
+library(M3Drop)
 exp_data <- read.table("TPM.txt",header = T)
 HVG <- BrenneckeGetVariableGenes(expr_mat=exp_data, spikes=NA, suppress.plot=FALSE, fdr=0.1, minBiolDisp=0.5, fitMeanQuantile=0.8) # 2880
 write.table(HVG,file = "HVG.txt",sep="\t",quote = F,row.names = F,col.names = T)

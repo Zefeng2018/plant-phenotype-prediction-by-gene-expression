@@ -39,8 +39,6 @@ train_data = HVG_tpm_sub[train_sub,]
 test_data = HVG_tpm_sub[-train_sub,]
 train_data$class = as.factor(train_data$class)
 test_data$class = as.factor(test_data$class)
-train_control <- trainControl(method = "cv",number = 5) 
-
 
 ## make model 1: random forest
 library(randomForest)

@@ -12,7 +12,7 @@ This pipeline was mainly performed by R programming (R version 4.3). There are t
 ### 0HVG_identification.R
 This R script is used to identify HGVs by taking maize gene expression matrix (expression levels of genes across different samples) as the input. The output file is a data frame that contains the detailed information about each HGV. 
 - 1maize_tissue_prediction.R
-This R script is used to model the relationship between the gene expression level of HGVs and tissue types.
+    This R script is used to model the relationship between the gene expression level of HGVs and tissue types.
 ### 2maize_tissue_prediction_shuffling.R
 This script is used to model the relationship between the gene expression level of HVGs and shuffled tissue types.
 ### 3maize_tissue_prediction_random_sampling.R

@@ -43,7 +43,7 @@ This script is used to model the relationship between the gene expression level 
 This script is used to model the relationship between the gene expression level of HVGs and the type of stress experienced by rice.
 
 ## R Package dependencies
-``` M3Drop```
+``` M3Drop
 randomForest
 e1071
 xgboost
@@ -51,4 +51,4 @@ keras
 tensorflow
 pROC
 tidyverse
-
+```

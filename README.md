@@ -41,3 +41,6 @@ This script is used to model the relationship between the gene expression level 
 This script is used to model the relationship between the gene expression level of HVGs and rice inbred lines or cultivars.
 #### 4stress_prediction
 This script is used to model the relationship between the gene expression level of HVGs and the type of stress experienced by rice.
+
+## Depdenence
+M3Drop

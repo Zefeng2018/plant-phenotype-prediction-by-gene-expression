@@ -29,3 +29,14 @@ This script is used to determine the conservation of HVGs between maize and rice
 This script is used to predict rice tissue types using the models trained from maize dataset.
 #### 9rice_maize_model_compare.R
 This script is used to predict maize tissue types using the models trained from rice dataset.
+
+In the rice folder, the main functions of each script are as follows.
+#### 0HVG_identification
+
+#### 1rice_tissue.prediction
+
+#### 2rice_development_stage.prediction
+
+#### 3rice_inbred_prediction
+
+#### 4stress_prediction
